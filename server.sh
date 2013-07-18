@@ -37,7 +37,10 @@ WAD_LIST+=("$WAD_DIR/BDMutator_v16zombiesounds.pk3")
 WAD_LIST+=("$WAD_DIR/DoomMetalVol3.wad")
 #WAD_LIST+=("$WAD_DIR/RealGoreForBrutalDoomV1.pk3")
 
+SERVER_CONFIG=$1
+
 ARGS="$APP"
+ARGS="$ARGS -host +exec $SERVER_CONFIG"
 ARGS="$ARGS -iwad $IWAD"
 
 for WAD in "${WAD_LIST[@]}"; do

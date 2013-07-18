@@ -1,14 +1,11 @@
 Brutal Doom Scripts
 ===================
 
-Running
--------
+Easy to use Client and Server scripts for Brutal Doom.
 
-```
-./brutaldoom
-```
+Can be used with any other mod (or vanilla Doom/Hexen/etc). Just change the loaded WADs in the scripts.
 
-The script looks for the content in the following locations:
+The scripts looks for the content in the following locations:
 
    * Doom WADs - './wads/'
    * Brutal Doom WADs - './wads/'
@@ -17,6 +14,24 @@ The script looks for the content in the following locations:
 Enable various WADs by uncommenting them in brutaldoom.sh.
 
 Only 1 IWAD can be active at a time.
+
+Running Client
+--------------
+
+```
+./brutaldoom.sh
+```
+
+Running Server
+--------------
+
+```
+./server.sh configs/coop.cfg
+```
+
+Configs are located in configs/*.cfg.
+
+Edit or create new configs to customise your server.
 
 
 Dependencies
