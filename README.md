@@ -18,16 +18,22 @@ Only 1 IWAD can be active at a time.
 Running Client
 --------------
 
+Linux / Mac OS-X
 ```
 ./brutaldoom.sh
 ```
 
+On Windows, run brutaldoom.bat
+
 Running Server
 --------------
 
+Linux / Mac OS-X
 ```
 ./server.sh configs/coop.cfg
 ```
+
+On Windows, run server.bat
 
 Configs are located in configs/*.cfg.
 
