@@ -1,7 +1,7 @@
 Brutal Doom Scripts
 ===================
 
-Easy to use Client and Server scripts for Brutal Doom.
+Easy to use Client and Server scripts for the excellent [Brutal Doom](http://forum.zdoom.org/viewtopic.php?f=19&t=28920).
 
 Can be used with any other mod (or vanilla Doom/Hexen/etc). Just change the loaded WADs in the scripts.
 
