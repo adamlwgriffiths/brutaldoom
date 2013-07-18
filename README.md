@@ -44,7 +44,7 @@ Dependencies
 ------------
 
    * [Zandronum](http://www.zandronum.com)
-   * [Doom WADs](ftp://ftp.idsoftware.com/idstuff/doom/doom19s.zip)
+   * [Doom WADs](http://www.jbserver.com/downloads/games/doom/misc/shareware/doom19s.zip)
    * [Brutal Doom](http://www.moddb.com/mods/brutal-doom)
 
 Limitations
