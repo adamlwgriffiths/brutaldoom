@@ -1,7 +1,7 @@
 Brutal Doom Scripts
 ===================
 
-Easy to use Client and Server scripts for the excellent [Brutal Doom](http://forum.zdoom.org/viewtopic.php?f=19&t=28920).
+Easy to use Client and Server scripts for [Zandronum](http://www.zandronum.com) and the excellent [Brutal Doom](http://forum.zdoom.org/viewtopic.php?f=19&t=28920) mod.
 
 Can be used with any other mod (or vanilla Doom/Hexen/etc). Just change the loaded WADs in the scripts.
 
@@ -33,7 +33,10 @@ Linux / Mac OS-X
 ./server.sh configs/coop.cfg
 ```
 
-On Windows, run server.bat
+Windows
+```
+server.bat configs/coop.cfg
+```
 
 Configs are located in configs/*.cfg.
 
@@ -47,9 +50,15 @@ Dependencies
    * [Doom WADs](http://www.jbserver.com/downloads/games/doom/misc/shareware/doom19s.zip)
    * [Brutal Doom](http://www.moddb.com/mods/brutal-doom)
 
+Platforms
+---------
+
+   * Mac OS-X
+   * Windows
+
 Limitations
 -----------
 
-   * Only OS-X at the moment. Trivial to fix.
+   * No Linux support yet (coming soon).
    * No installer script.
 
