@@ -2,7 +2,15 @@
 
 set -e
 
-APP="Zandronum.app/Contents/MacOS/zandronum"
+DARWIN_APP="Zandronum.app/Contents/MacOS/zandronum"
+LINUX_APP="zandronum-server"
+
+if [[`uname` == "Darwin"]]; then
+	APP=$DARWIN_APP
+else
+	APP=$LINUX_APP
+fi
+
 WAD_DIR="wads"
 
 # Ultimate Doom

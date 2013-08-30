@@ -23,7 +23,10 @@ Linux / Mac OS-X
 ./brutaldoom.sh
 ```
 
-On Windows, run brutaldoom.bat
+On Windows, run brutaldoom.bat from Explorer, or run the following from cmd.
+```
+brutaldoom.bat
+```
 
 Running Server
 --------------
@@ -55,10 +58,10 @@ Platforms
 
    * Mac OS-X
    * Windows
+   * Linux
 
 Limitations
 -----------
 
-   * No Linux support yet (coming soon).
    * No installer script.
 
