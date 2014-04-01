@@ -1,7 +1,6 @@
 @echo off
 
 set APP=zandronum.exe
-
 set WAD_DIR=wads
 
 call brutaldoom.bat
