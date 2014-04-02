@@ -3,7 +3,7 @@
 set APP=zandronum.exe
 set WAD_DIR=wads
 
-call brutaldoom.bat
+call settings.bat
 
 set ARGS=%APP%
 set ARGS=%ARGS% -iwad %IWAD%
