@@ -31,7 +31,7 @@ Installation Windows
  * Install Zandronum into the source directory.
  * Put Doom wads in `./wads`.
  * Put Brutal Doom WADs in `./wads`.
- * Edit `settings.bat` (Windows) and enable / disable the appropriate WADs (use REM to disable a WAD).
+ * Edit `settings.bat` and enable / disable the appropriate WADs (use REM to disable a WAD).
 
 
 Running The Game
