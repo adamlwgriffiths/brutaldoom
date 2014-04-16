@@ -55,7 +55,7 @@ Pass the desired config file to the server script.
 
 For Mac OS-X and Linux
 ```
-./server.sh configs/coop.cfg
+./server.sh ./configs/coop.cfg
 ```
 
 Windows, run the following from the command prompt:
