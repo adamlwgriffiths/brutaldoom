@@ -7,8 +7,8 @@ Can be used with any other mod (or vanilla Doom/Hexen/etc). Just change the load
 
 The scripts looks for the content in the following locations:
 
-   * WADs (Doom / Mods / Brutal Doom) - './wads/'
-   * Zandronum - './'
+   * WADs (Doom / Mods / Brutal Doom) - `./wads/`
+   * Zandronum - `./`
 
 Enable different base WADs and mod IWADs by uncommenting them in settings.sh (Mac OS-X and Linux) and settings.bat (Windows).
 
