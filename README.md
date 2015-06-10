@@ -7,42 +7,22 @@ Can be used with any other mod (or vanilla Doom/Hexen/etc). Just change the load
 
 The scripts looks for the content in the following locations:
 
-   * Doom WADs - './wads/'
-   * Brutal Doom WADs - './wads/'
+   * WADs (Doom / Mods / Brutal Doom) - './wads/'
    * Zandronum - './'
 
-Enable different base WADs and mod IWADs by uncommenting them in settings.sh for Mac OS-X and Linux, and settings.bat for Windows.
+Enable different base WADs and mod IWADs by uncommenting them in settings.sh (Mac OS-X and Linux) and settings.bat (Windows).
 
 Only 1 IWAD can be active at a time.
 
 
-Installation Mac OS-X / Linux
+Installation
 -----------------------------
 
  * Install Zandronum into the source directory.
  * Put Doom wads in `./wads`.
- * Put Brutal Doom WADs in `./wads` or run the WAD downloader (see below).
- * Edit `settings.sh`  and enable / disable the appropriate WADs (use # to disable a WAD). 
-
-
-Installation Windows
---------------------
-
- * Install Zandronum into the source directory.
- * Put Doom wads in `./wads`.
- * Put Brutal Doom WADs in `./wads`.
- * Edit `settings.bat` (Windows) and enable / disable the appropriate WADs (use REM to disable a WAD).
-
-
-Running The Game
-----------------
-
-For Mac OS-X and Linux
-```
-./brutaldoom.sh
-```
-
-Windows, double-click the `brutaldoom.bat` file.
+ * Put Brutal Doom WADs in `./wads`. Linux / Mac OS-X can run the installer `./install.sh` (see below).
+ * Edit `settings.sh` (Mac OS-X and Linux) or `settings.bat (Windows) and enable / disable the appropriate WADs (use # to disable a WAD). 
+ * Run `./brutaldoom.sh` (Mac OS-X and Linux) or double-click the `brutaldoom.bat` file (Windows).
 
 
 Running a Server
@@ -54,18 +34,14 @@ An example Co-operative mode config is provided as `./configs/coop.cfg`.
 Pass the desired config file to the server script.
 
 For Mac OS-X and Linux
-```
-./server.sh configs/coop.cfg
-```
+ * `./server.sh configs/coop.cfg`
 
 Windows, run the following from the command prompt:
-```
-server.bat configs/coop.cfg
-```
+ * `server.bat configs/coop.cfg`
 
 
-WAD Downloader
---------------
+WAD Installer
+-------------
 Linux / Mac OS-X only at the moment
 
 ```
@@ -74,10 +50,9 @@ Linux / Mac OS-X only at the moment
 
 Only installs:
 
- * Brutal Doom v19
+ * Brutal Doom v20
  * Brutal Doom Metal Volume 4
- * Brutal Doom Mutators 4.1
- * Brutal Doom Techno Music Pack (if 7zip is installed)
+  * Brutal Doom Techno Music Pack (if 7zip is installed)
 
 
 Dependencies
@@ -93,10 +68,3 @@ Platforms
 
    * Mac OS-X
    * Windows
-
-Limitations
------------
-
-   * No Linux support yet (coming soon).
-   * No installer script.
-
