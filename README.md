@@ -21,7 +21,7 @@ Installation
  * Install Zandronum into the source directory.
  * Put Doom wads in `./wads`.
  * Put Brutal Doom WADs in `./wads`. Linux / Mac OS-X can run the installer `./install.sh` (see below).
- * Edit `settings.sh` (Mac OS-X and Linux) or `settings.bat (Windows) and enable / disable the appropriate WADs (use # to disable a WAD). 
+ * Edit `settings.sh` (Mac OS-X and Linux) or `settings.bat` (Windows) and enable / disable the appropriate WADs (use # to disable a WAD). 
  * Run `./brutaldoom.sh` (Mac OS-X and Linux) or double-click the `brutaldoom.bat` file (Windows).
 
 
