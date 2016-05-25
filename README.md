@@ -39,6 +39,10 @@ For Mac OS-X and Linux
 Windows, run the following from the command prompt:
  * `server.bat configs/coop.cfg`
 
+If the Zandronum server browser throws errors that prevent you from finding the server, do the following:
+ 1. Open the console with the tilde button `~`
+ 2. Type `connect 127.0.0.1` or the appropriate IP address of the server.
+
 
 WAD Installer
 -------------
